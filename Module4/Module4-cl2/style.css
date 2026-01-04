@@ -1,0 +1,50 @@
+ nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+ }  
+ nav li a{
+    text-decoration: none;
+ }
+ nav {
+    text-align: center;
+ }
+
+ nav li a:hover{
+  text-decoration: underline;
+  background-color: lime;
+ }
+ h2{
+    text-align: center;
+    color: indigo;
+    font-family: cursive;
+    background-color: lightblue;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+ }
+ h5{
+    text-align: center;
+    color: rgb(0, 166, 255);
+    font-weight: bold;
+    font-family: cursive;
+ }
+ figcaption{
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: bold;
+ }
+ figure img{
+    display: block;
+    margin: 0 auto;
+ }
+
+ footer{
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(19, 4, 44); 
+ }
