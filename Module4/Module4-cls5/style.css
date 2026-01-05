@@ -1,0 +1,49 @@
+ h2{
+    background-color: lightcoral;
+    color: darkblue;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ .container{
+    display: flex;
+ }
+ .container div{
+    border: 2px solid red;
+    font-size: 3em;
+    height: 100px;
+    width: 200px;
+ }
+
+ .box-container{
+     display: flex;
+     gap: 50px;
+ }
+ .box-container div{
+    height: 50px;
+    border: 2px solid blue;
+    width: 50px;
+    font-size: 2em;
+ }
+
+ .user-container{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: space-around;
+ }
+ .user{
+    height: 150px;
+    width: 150px;
+    border: 2px solid skyblue;
+    background-color: rgb(95, 96, 161);
+    font-size: 2em;
+ }
+ .card-container{
+    display: flex;
+    flex-wrap: wrap;
+ }
