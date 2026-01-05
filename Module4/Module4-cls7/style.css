@@ -1,0 +1,39 @@
+ nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+ nav ul li a{
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
+    color: lime;
+ }
+
+ .container{
+   background-color: lightseagreen;
+   max-width: 600px;
+ }
+ .content{
+   background-color: khaki;
+   width: 200px;
+   height: 200px;
+   text-align: center;
+   margin: 0 auto;
+   padding: 20px;
+ }
+ .card{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+ }
+ .card-e{
+    background-color: rgb(192, 34, 186);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+ }
