@@ -1,0 +1,43 @@
+ h2{
+    text-align: center;
+    color: blue;
+    background-color: lightslategrey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-weight: bold;
+ }
+
+ h4{
+    background-color: rgb(199, 165, 165);
+    padding: 20px;
+    width: 250px;
+    color: rgb(2, 81, 2)
+ }
+ .container{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items:center;
+ }
+ .box{
+   background-color: burlywood;
+   font-size: 4em;
+   height: 200px;
+   width: 200px;
+ }
+
+
+ /* margin 0 auto center */
+
+ .parent{
+   background-color: burlywood;
+ }
+ .child{
+    background-color: aquamarine;
+    max-width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+ }
